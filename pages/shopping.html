@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goldblock Ltd Company | Shopping Cart</title>
+  <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container">
+       <a href="/index.html" class="logo">
+         <img src="/img/logo.png" alt="Goldblock Logo">
+        </a>
+       <div class="btn-toggle"></div>
+       <ul class="navbar-menu">
+         <li>
+           <div class="close"></div>
+         </li>
+         <li><a href="/index.html">Home</a></li>
+           <li><a href="/pages/products.html">Products</a></li>
+           <li><a href="/pages/shopping.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+       </ul>
+     </div>
+  </nav>
+  
+    <section class="shopping-cart">
+      <div class="heading-title">
+        <h1>Shopping Cart</h1>
+      </div>  
+    
+      <div class="container">
+        <div class="cart-content">
+
+          <div class="cart-left">
+            <h5><a href="/pages/products.html" class="back-shopping">
+              <i class="fa-solid fa-arrow-left-long"></i>
+              Continue shopping
+            </a>
+            </h5>
+
+            <hr style="color: #d4d4d4; margin: 15px auto">
+
+            <div class="cart-top-text"> 
+              <div class="small-text">
+                <p>Shopping cart</p> 
+                <p>You have 4 items in your cart</p>
+              </div>
+              <div class="sort">
+                <p><span class="text-muted">Sort by:</span>
+                  <select class="select-price">
+                    <option value="">Price</option>
+                    <option value="">Low</option>
+                    <option value="">High</option>
+                </select> 
+              </div>
+            </div>
+
+            <div class="cart-item">
+              <img src="/img/desk.png" alt="Product Desk">
+              <span class="item-name">Office Desk</span>
+              <span class="item-number" style="text-indent: 12px;">2</span>
+              <span class="cart-price">£250.00</span>
+              <a href="#" class="remove-item"><i class="fa-solid fa-trash"></i></a>
+            </div>
+            <div class="cart-item">
+              <img src="/img/chair.png" alt="Product Chair">
+              <span class="item-name">Office Chair</span>
+              <span class="item-number">3</span>
+              <span class="cart-price">£120.00</span>
+              <a href="#" class="remove-item"><i class="fa-solid fa-trash"></i></a>
+            </div>
+            <div class="cart-item">
+              <img src="/img/cabinet.png" alt="Product Cabinet">
+              <span class="item-name">Cabinet</span>
+              <span class="item-number" style="text-indent: 28px;">4</span>
+              <span class="cart-price">£179.00</span>
+              <a href="#" class="remove-item"><i class="fa-solid fa-trash"></i></a>
+            </div>
+            <div class="cart-item">
+              <img src="/img/cupboard.png" alt="Product Cupboard">
+              <span class="item-name">Cupboard</span>
+              <span class="item-number" style="text-indent: 10px;">1</span>
+              <span class="cart-price">£119.00</span>
+              <a href="#" class="remove-item"><i class="fa-solid fa-trash"></i></a>
+            </div>
+          </div>
+
+          <div class="cart-right">
+            <div class="card-details">
+              <h3>Card details</h3>
+            </div>
+            <div class="card-type">
+              <p>Card type</p>
+             <a href="#"><i class="fa-brands fa-cc-mastercard"></i></a>
+             <a href="#"><i class="fa-brands fa-cc-visa"></i></a>
+             <a href="#"><i class="fa-brands fa-cc-amex"></i></a>
+             <a href="#"><i class="fa-brands fa-cc-paypal"></i></a>
+            </div>
+            <div class="card-fields">
+              <input type="text" value="Cardholder's Name">
+              <input type="text" value="Card Number">
+              <div class="card-date">
+                <input type="text" value="Expiretion">
+                <input type="text" value="CVV">
+              </div>
+            </div>
+
+            <hr style="margin: 30px 0px; color: #1050bf;">
+
+            <div class="card-summary">  
+              <div class="summary-content">
+                <p>Subtotal</p>
+                <p>Shipping</p>
+                <p>Total(Incl. taxes)</p>
+              </div>
+              <div class="card-amount">
+                <p>£668.00</p>
+                <p>£15.00</p>
+                <p>£683.00</p>
+              </div>
+            </div>
+           
+            <a href="#">
+              <div class="checkout-content">
+                <span>£4818.00</span>
+                <span>Checkout<i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </section>  
+    
+    
+    <footer class="main-footer" style="display: flex;background: #75726c; justify-content: center;
+    align-items: center;text-align: center;color: #fff;padding: 10px">
+      <p>Copyright © 2023 Goldblock. All right reserved.</p>
+    </footer>
+    
+  <script src="/js/main.js"></script>
+ </body>
+ </html>
